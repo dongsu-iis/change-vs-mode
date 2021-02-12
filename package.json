@@ -1,0 +1,23 @@
+{
+    "name": "change-vs-mode",
+    "version": "1.0.0",
+    "description": "GithubをVscodeモード切り替えツール",
+    "main": "index.js",
+    "scripts": {
+        "build": "uglifyjs --compress --mangle -o dist/change-vs-mode.min.js src/change-vs-mode.js "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dongsu-iis/change-vs-mode.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dongsu-iis/change-vs-mode/issues"
+    },
+    "homepage": "https://github.com/dongsu-iis/change-vs-mode#readme",
+    "dependencies": {
+        "uglify-js": "^3.0.28"
+    }
+}
